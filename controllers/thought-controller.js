@@ -72,7 +72,8 @@ const ThoughtController = {
             userId: body.userId,
           },
         },
-      }
+      },
+      { new: true }
     )
       .then((dbThoughtData) => res.json(dbThoughtData))
       .catch((err) => res.json(err));
