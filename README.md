@@ -24,7 +24,9 @@ This was a great project to learn most of the in's and out's of MongoDB and Mong
 This can be a good boiler plate to create social networks of many kinds.
 
 Click the following links for the functionality videos!
-[Server Startup Video:](https://youtu.be/zXEYKe5Npu0)
+
+[Server Startup Video](https://youtu.be/zXEYKe5Npu0)
+
 [Insomnia Tests Video](https://youtu.be/l_G3C_UvG2c)
 
 ### Credits
