@@ -27,6 +27,7 @@ const ReactionSchema = new Schema(
     toJSON: {
       getters: true,
     },
+    id: false,
   }
 );
 
@@ -47,7 +48,7 @@ const CommentSchema = new Schema(
       default: Date.now,
       get: (createdAtVal) => dateFormat(createdAtVal),
     },
-    // use ReplySchema to validate data for a reply
+    // use ReactionSchema to validate data for a reaction
     reactions: [ReactionSchema],
   },
   {
